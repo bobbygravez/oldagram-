@@ -53,7 +53,7 @@ let postBackground = document.querySelectorAll(".post-background")
 
 postBackground[0].addEventListener("dblclick", function () {
       likesNum[0].innerHTML++
-      likesBtn[0].style.cssText = "background-color: red";
+      likesBtn[0].style.cssText = "color: red";
 })
 
 postBackground[1].addEventListener("dblclick", function () {
