@@ -89,7 +89,7 @@ section {
 	height: 545px;
 	background: #FFFFFF;
 	margin: 0 auto;
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 	
 	
 }
@@ -108,4 +108,14 @@ section {
 
 .img-buttons img:hover {
 	opacity: 0.6;
+}
+
+@media (max-width: 480px){
+	.container{
+		width: 100vw;
+	}
+	
+	section{
+		width: 100vw;
+	}
 }
