@@ -65,6 +65,9 @@ body {
 }
 
 /*layout*/
+main{
+	background-color: #FFFFFF;
+}
 
 .details {
 	display: flex;
